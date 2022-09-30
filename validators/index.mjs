@@ -1,5 +1,5 @@
-import { isRequestValidated } from '../utils/validator.js'
-import * as user from './user.validators.js'
+import { isRequestValidated } from '../utils/validator.mjs'
+import * as user from './user.validators.mjs'
 
 // merge all validators
 const validators = {

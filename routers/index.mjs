@@ -1,4 +1,4 @@
-import userRouter from '../api/v1/routes/user.routes.js'
+import userRouter from '../api/v1/routes/user.routes.mjs'
 
 const routes = { user: userRouter }
 

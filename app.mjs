@@ -1,7 +1,7 @@
 import express from 'express'
 import cors from 'cors'
-import routes from './routers/index.js'
-import mongodbInit from './configs/mongodb.js'
+import routes from './routers/index.mjs'
+import mongodbInit from './configs/mongodb.mjs'
 
 // express app
 const app = express()
